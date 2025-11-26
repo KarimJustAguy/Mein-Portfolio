@@ -47,7 +47,9 @@ html, body {
     background-color: var(--hover-white);
     color: var(--text-color);
 }
-
+.collapse navbar-collapse {
+    float: right;
+}
 section {
     background-color: var(--secondary-color);
     padding: 15px;
@@ -137,3 +139,4 @@ a:focus {
     border-radius: 16px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
+
